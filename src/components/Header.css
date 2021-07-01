@@ -1,0 +1,35 @@
+.AppHeader{
+    background: white;
+    /* height: 70px; */
+}
+.header{
+    display: flex;
+}
+.App-logo{
+    width: 170px;
+    margin-right: 20px;
+}
+.App-link{
+    margin: auto 0px;
+    border-left: 2px solid #1e88e5;
+    text-indent: 10px;
+    color: #1e88e5;
+}
+.subHeader{
+    background: #1565c0;
+    height: 65px;
+}
+.settingIcon{
+    width: 30px;
+    background: white;
+    margin: 15px;
+    cursor: pointer;
+}
+.subNavContent{
+    float: right;
+    display: flex;
+    color: white;
+}
+.adminSettings{
+    margin: auto;
+}

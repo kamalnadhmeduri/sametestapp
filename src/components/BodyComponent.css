@@ -1,0 +1,37 @@
+.bodyComponent{
+    border: 1px solid #baa9a9;
+    display: flex;
+}
+.leftContent{
+    float: left;
+    width: 20%;
+}
+.leftNavButtons{
+    width: auto;
+    height: 20px;
+    border-right: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    text-indent: 10px;
+    padding: 18px 10px 15px 20px;
+    cursor: pointer;
+}
+.leftNavButtonActive{
+    background: #b2ebf2;
+    height: 20px;
+    text-indent: 10px;
+    border-right: 0px;
+    border-left: 20px solid #1e88e5;
+    border-bottom: 1px solid #707070;
+    padding: 18px 10px 15px 0px;
+}
+.leftNavButtons:nth-child(1){
+    border-top: 0px;
+}
+.leftNavButtons:last-child{
+    border-bottom: 0px;
+}
+.rightContent{
+    background: #b2ebf2;
+    float: right;
+    width: 80%;
+}

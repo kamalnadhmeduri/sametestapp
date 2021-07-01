@@ -1,0 +1,35 @@
+.rightBodyContent{
+    padding: 0px 20px;
+    color: #42a5f5;
+}
+.RequisitionsBodyContent{
+    display: flex;
+}
+.searchBar{
+    color: black;
+    width: 40%;
+}
+.searchBar input{
+    width: 200px;
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+}
+.filter{
+    color: black;
+    width: 30%; 
+}
+.filter p{
+margin-top: 0px;
+}
+.filterByAuthor{
+    color: black;
+    width: 30%; 
+}
+.filterByAuthor label{
+    display: flex;
+}
+.filterByAuthor select{
+height: 35px;
+width: 140px;
+}
