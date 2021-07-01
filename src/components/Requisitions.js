@@ -1,4 +1,4 @@
-
+import RequisitionTableComponent from './RequisitionTableComponent'
 import './Requisitions.css';
 
 function Requisitions() {
@@ -48,6 +48,7 @@ function Requisitions() {
         </select>
         </div>    
         </div>
+        <RequisitionTableComponent/>
     </div>
   );
 }
