@@ -1,5 +1,8 @@
 # sametestapp
 
+1 0 * * * SN_USER=your_username SN_PASS=your_password /opt/homebrew/bin/node /Users/yourname/projects/desk-booking.js >> /Users/yourname/desk-booking.log 2>&1
+
+
 npm init -y
 npm install playwright
 
