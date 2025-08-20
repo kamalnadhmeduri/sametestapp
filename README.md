@@ -1,5 +1,18 @@
 # sametestapp
 
+stages:
+  - book
+
+desk_booking:
+  stage: book
+  image: mcr.microsoft.com/playwright:v1.48.2-jammy # official Playwright image with browsers
+  script:
+    - npm install
+    - node desk-booking.js
+  only:
+    - schedules
+
+
 async function notifyTeams(message) {
   const webhookUrl = process.env.TEAMS_WEBHOOK; // store securely
   try {
