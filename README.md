@@ -1,6 +1,16 @@
 # sametestapp
 
-1 0 * * * SN_USER=your_username SN_PASS=your_password /opt/homebrew/bin/node /Users/yourname/projects/desk-booking.js >> /Users/yourname/desk-booking.log 2>&1
+async function notifyTeams(message) {
+  const webhookUrl = process.env.TEAMS_WEBHOOK; // store securely
+  try {
+    await axios.post(webhookUrl, {
+      text: message
+    });
+    console.log("✅ Sent Teams notification");
+  } catch (err) {
+    console.error("❌ Failed to send Teams message", err);
+  }
+}
 
 
 npm init -y
